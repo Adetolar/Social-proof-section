@@ -1,0 +1,330 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+@media screen and (max-width:1023px) {
+    body{
+        font-size: 15px;
+        font-family:League Spartan ;
+        text-align: center;
+        font-weight: 400;
+        background-image: url(/images/bg-pattern-top-desktop.svg) url(/images/bg-pattern-bottom-mobile.svg);
+        background-position: top left bottom right;
+        background-repeat: no-repeat;
+        background-size: cover cover;
+        background-color:hsl(0, 0%, 100%)
+    }
+    
+    
+    footer
+     {
+        font-size: 11px;
+        text-align: center;
+      }
+    
+      footer a {
+        color: hsl(228, 45%, 44%);
+      }
+    
+      main{
+        width: 90%;
+        margin: 20px auto;
+      }
+    
+      h1{
+        color:hsl(300, 43%, 22%) ;
+        font-size: xx-large;
+        font-weight: 700;
+        padding: 20px;
+      }
+    
+      main h1+p{
+        color: hsl(303, 10%, 53%);
+        font-size:medium;
+        font-weight: 500;
+        line-height: 140%;
+        padding: 10px;
+       
+      }
+    
+      .containerRating{
+         display: grid;
+         place-items: center;
+         row-gap: 10px;
+         margin:40px;
+         
+        }
+        
+        .Rating{
+        padding-top: 30px;
+        min-height: 70px;
+        background-color:hsl(300, 24%, 96%) ;
+        color:hsl(300, 43%, 22%) ;
+        font-size: large;
+        font-weight: 700;
+        line-height: 100%;
+        ;
+      }
+    
+      .Rating p{
+        margin:5px ;
+      }
+    
+    
+    
+      .containerBuyer{
+        display: grid;
+        place-items: center;
+        row-gap: 10px;
+        
+      }
+    
+      .Buyer{
+        padding: 35px;
+      }
+    
+    
+      .Buyer img{
+        
+        width: 50px;
+        border-radius: 25px;
+        /* display: inline; */
+        /* text-align: left; */
+       
+      
+        
+       
+      }
+    
+      .Buyer h4 {
+        color:  hsl(300, 52%, 56%) ;
+        font-size: medium;
+        font-weight: 400;
+        margin-top: 0px;
+        
+      }
+    
+      .Buyer h3{
+        font-size: medium;
+        font-weight: 500;
+        margin-bottom: 5px;
+      }
+    
+      .Buyer{
+        background-color:hsl(300, 43%, 22%) ;
+        border-radius: 5px;
+        color:hsl(0, 0%, 100%) ;
+      }
+    
+      .containerBuyerProfile{
+        line-height: 100%;
+    
+      }
+        
+    
+    
+      .container{
+        display: flex;
+        align-items:flex-start
+      }
+    
+    
+      .container > div+div{
+        margin-left: 10px;
+      }
+    
+      .container .box img{
+        margin-top: 10px;
+      }
+    
+    
+      
+    
+     
+      
+      section{
+       font-size: medium;
+        text-align: left;
+      }
+    
+}
+
+@media screen and (min-width:1024px) {
+    
+}
+body{
+    font-size: 15px;
+    font-family:League Spartan ;
+    font-weight: 400;
+    background-image:url(/images/bg-pattern-top-desktop.svg) url(images/bg-pattern-bottom-desktop.svg);
+    background-position: top left bottom right;
+    background-repeat: no-repeat;
+    background-size: cover cover;
+    background-color:hsl(0, 0%, 100%)
+}
+
+
+footer
+ {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  footer a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  main{
+    width: 60%;
+    margin: 0px auto;
+    
+  }
+
+  h1{
+    color:hsl(300, 43%, 22%) ;
+    font-size: 3em;
+    font-weight: 700;
+    
+  }
+
+  main h1+p{
+    color: hsl(303, 10%, 53%);
+    font-size:medium;
+    font-weight: 500;
+    line-height: 140%;
+    margin-top: 40px;
+    
+  }
+
+  .containerRating{
+      border: 1px solid red;
+      line-height: 400%;
+      
+    }
+    
+    .Rating{
+    background-color:hsl(300, 24%, 96%) ;
+    color:hsl(300, 43%, 22%) ;
+    font-size: small;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 10px;
+   
+    
+ 
+    
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    
+}
+
+
+.stars , .stars+p {
+    display: inline;
+  
+}
+
+.Rating .stars+p{
+    margin-left: 20px;
+}
+
+.containerRating .guru{
+    margin-left: 40px;
+}
+
+.containerRating .tech{
+    margin-left: 80px
+}
+
+
+.containerBuyer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    border: 2px solid red;
+    
+
+}
+
+/* .Buyer .Colton{
+    margin-bottom: 40px;
+    
+    
+   
+
+}
+
+.Buyer .Irene{
+    margin-bottom: 20px;
+    
+   
+
+} */
+
+.Buyer{
+    background-color:hsl(300, 43%, 22%) ;
+    border-radius: 9px;
+    color:hsl(0, 0%, 100%);
+    width: 29%;
+    height: 170px;
+    padding: 15px;
+    
+    
+
+}
+
+
+
+.Buyer img{  
+    width: 50px;
+    border-radius: 25px;    
+    
+}
+
+.Buyer h4 {
+    color:  hsl(300, 52%, 56%) ;
+    font-size: medium;
+    font-weight: 400;
+    margin-top: 0px;
+    
+}
+
+.Buyer h3{
+    font-size: medium;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+
+
+.containerBuyerProfile{
+    line-height: 100%;
+    
+}
+
+
+
+.container{
+    display: flex;
+    align-items:flex-start
+    /* flex-wrap: wrap; */
+}
+
+
+.container > div+div{
+
+
+ 
+  
+} 
+  article{
+    margin-top: 20px;
+    text-align: left;
+  }
