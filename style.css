@@ -1,122 +1,237 @@
-   /* *{
-    box-sizing: border-box;
-   } */
-   
-   body{
-        font-size: 15px;
-        font-family:League Spartan;
-        text-align: center;
-        font-weight: 400;
-        background-image: url(/images/bg-pattern-top-mobile.svg), url(/images/bg-pattern-bottom-mobile.svg);
-        background-position: top left ,bottom right;
-        background-repeat: no-repeat ,no-repeat;
-        background-size: 100% ,100%;
-        background-color:hsl(0, 0%, 100%);
-        color:hsl(0, 0%, 100%) ;
-      
-    }
-    
-    
-    footer
-     {
-        font-size: 11px;
-        text-align: center;
-     
-      }
-    
-      footer a {
-        color: hsl(228, 45%, 44%);
-      }
-    
-     
-    
-      h1{
-        color:hsl(300, 43%, 22%) ;
-        font-size: xx-large;
-        font-weight: 700;
-        
-      }
-      
-      header h1+p{
-        color: hsl(303, 10%, 53%);
-        font-size:medium;
-        font-weight: 500;
-        line-height: 120%;
-        margin-bottom: 30px;
-      
-       
-      
-      }
+footer {
+  font-size: 11px;
+  text-align: center;
+}
 
-    .stars img{
-      margin-top: 15px;
-      width: 13px;
-    }
-    
-    .Rating{
-      margin: 10px 30px;
-      min-height: 60px;
-      background-color:hsl(300, 24%, 96%) ;
-      color:hsl(300, 43%, 22%) ;
-      font-size: small;
-      font-weight: 700;
-      border-radius: 7px;
-    
-    }
-    
-    .Rating p{
-      margin-top:5px ;
-      padding: 0px;
-    } 
+footer a {
+  color: hsl(228, 45%, 44%);
+}
 
+@media screen and (max-width: 1023px) {
+  body {
+    font-size: 15px;
+    font-family: League Spartan;
+    text-align: center;
+    font-weight: 400;
+    background-image: url(/images/bg-pattern-top-mobile.svg),
+      url(/images/bg-pattern-bottom-mobile.svg);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100%, 100%;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+  }
 
-    .Buyer{
-      background-color:hsl(300, 43%, 22%) ;
-      border-radius: 5px;
-      color:hsl(0, 0%, 100%) ;
-      margin: 10px 30px;
-      padding: 35px 35px 20px 35px;
-      line-height: 120%;
-    }
+  h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: xx-large;
+    font-weight: 700;
+  }
 
-    .container img{
-      width: 35px;
-      height: 35px;
-      border-radius: 50%;
+  header h1 + p {
+    color: hsl(303, 10%, 53%);
+    font-size: medium;
+    font-weight: 500;
+    line-height: 120%;
+    margin-bottom: 30px;
+  }
 
-    }
+  .stars img {
+    margin-top: 15px;
+    width: 13px;
+  }
 
-    .container p{
-      margin-left: 15px;
-      margin-top: 3px;
-      font-size: small;
-      font-weight: 700;
-     
-    }
+  .Rating {
+    margin: 10px 30px;
+    min-height: 60px;
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    font-size: small;
+    font-weight: 700;
+    border-radius: 7px;
+  }
 
-    .container p span{
-      color:  hsl(300, 52%, 56%) ;
-      font-size: small;
-      font-weight: 400;
-      margin-top: 20px;
-   
-    }
+  .Rating p {
+    margin-top: 5px;
+    padding: 0px;
+  }
 
+  .Buyer {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    margin: 10px 30px;
+    padding: 35px 35px 20px 35px;
+    line-height: 120%;
+  }
 
-    .container{
-      display: flex;
-    }
+  .container img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
 
+  .container p {
+    margin-left: 15px;
+    margin-top: 3px;
+    font-size: small;
+    font-weight: 700;
+  }
 
-    article{
-      text-align: left;
-      font-size: small;
-      font-weight: 500;
-      margin: 5px 10px;
-    }
+  .container p span {
+    color: hsl(300, 52%, 56%);
+    font-size: small;
+    font-weight: 400;
+    margin-top: 20px;
+  }
 
-    
+  .container {
+    display: flex;
+  }
 
+  article {
+    text-align: left;
+    font-size: small;
+    font-weight: 500;
+    margin: 5px 10px;
+  }
+}
 
-    
-   
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 15px;
+    font-family: League Spartan;
+    font-weight: 400;
+    background-image: url(/images/bg-pattern-top-desktop.svg)
+      url(/images/bg-pattern-bottom-desktop.svg);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100%, 100%;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+  }
+
+  main {
+    width: 60%;
+    margin: 20px auto;
+  }
+
+  header {
+    float: left;
+    margin-right: 20px;
+  }
+
+  .containerRating {
+    float: right;
+    margin-top: 35px;
+  }
+
+  h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: xx-large;
+    font-weight: 700;
+  }
+
+  header h1 + p {
+    color: hsl(303, 10%, 53%);
+    font-size: smaller;
+    font-weight: 500;
+    line-height: 120%;
+    margin-bottom: 30px;
+  }
+
+  .stars img {
+    margin-top: 5px;
+    width: 13px;
+  }
+
+  .Rating {
+    display: flex;
+    margin: 10px;
+    height: 10px;
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    font-size: small;
+    font-weight: 700;
+    border-radius: 7px;
+    padding: 20px;
+  }
+
+  .Rating p {
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+
+  .reviews {
+    margin-left: -100px;
+    margin-right: 80px;
+  }
+
+  .guru {
+    margin-left: -70px;
+    margin-right: 50px;
+  }
+
+  .containerBuyer {
+    clear: both;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .Buyer {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    margin: 10px 0px;
+    width: 230px;
+    padding: 18px;
+    line-height: 120%;
+    min-height: 140px;
+  }
+
+  .container img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+
+  .container p {
+    margin-left: 15px;
+    margin-top: 3px;
+    font-size: small;
+    font-weight: 700;
+  }
+
+  .container p span {
+    color: hsl(300, 52%, 56%);
+    font-size: small;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  article {
+    text-align: left;
+    font-size: small;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+
+  .Colton {
+    grid-column: 1/2;
+    grid-row: 1/10;
+  }
+
+  .Irene {
+    grid-column: 2/3;
+    grid-row: 2/11;
+  }
+
+  .anne {
+    grid-column: 3/4;
+    grid-row: 3/12;
+  }
+}
