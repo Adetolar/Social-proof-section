@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/Adetolar/Social-proof-section](https://your-solution-url.com)
 - Live Site URL: [https://653af58f2a07ac4286509bc3--glittering-heliotrope-d6d07c.netlify.app/](https://your-live-site-url.com)
 
 ## My process
